@@ -1,0 +1,10 @@
+CREATE TABLE BASEVERSION(
+ID_BASEVERSION INT NOT NULL PRIMARY KEY,VERSION int not null,
+DATEUPDATE date not null)CREATE TABLE PROGITMIN(
+ID_PROGITMIN int primary key not null,
+BDATE date,
+EDATE date,
+STAVKA float,
+RECINDICATION VARCHAR(1),
+USER_ID int not null,
+MODEL_ID int not null)
